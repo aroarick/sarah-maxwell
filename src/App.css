@@ -1,0 +1,69 @@
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.navbar {
+  padding: 30px;
+  color: black;
+}
+
+.navbar-brand {
+  font-family: "Fraunces", serif;
+  font-size: 1.5em;
+}
+
+.nav-link {
+  margin-right: 15px;
+}
+
+.navbar-button {
+  background: black;
+  border: 1px black solid;
+  color: white;
+  border-radius: 0;
+  padding: 15px 30px 15px 30px;
+}
+.navbar-button:hover {
+  background: #f0f0f0;
+  border: 1px #f0f0f0 solid;
+  color: black;
+  border-radius: 0;
+  padding: 15px 30px 15px 30px;
+}
+
+.home-mission {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 1em;
+}
+
+.home-mission-statement {
+  text-align: center;
+  font-family: "Fraunces", serif;
+  margin: 20px 250px 60px 250px;
+  font-size: 3em;
+}
+
+.home-residental-row {
+  margin-top: 30px;
+  margin-bottom: 60px;
+}
+
+.home-residental {
+  font-family: "Fraunces", serif;
+  margin-bottom: 20px;
+}
+
+.footer {
+  background: #f0f0f0;
+  padding-bottom: 70px;
+}
+
+.footer-title {
+  font-family: "Fraunces", serif;
+  margin: 20px 0px 20px 20px;
+}
+
+.footer-text {
+  margin: 20px 0px -15px 20px;
+}
