@@ -12,11 +12,11 @@ function Footer() {
     <>
       <Row className="footer">
         <Col>
-          <h3 className="footer-title">Sarah Maxwell</h3>
-          <p className="footer-text">123 Demo Street</p>
-          <p className="footer-text">Dallas, TX 12345</p>
+          <h3 className="footer-title">Venegas Maxwell Homes</h3>
+          <p className="footer-text">(214) 734-7889</p>
+          <p className="footer-text">julie@venegasmaxwellhomes.com</p>
         </Col>
-        <Col lg={5}></Col>
+        <Col lg={3}></Col>
         <Col>
           <h3 className="footer-title">About</h3>
           <p className="footer-text">Work</p>

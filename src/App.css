@@ -25,7 +25,7 @@ body {
 }
 .navbar-button:hover {
   background: #f0f0f0;
-  border: 1px #f0f0f0 solid;
+  border: 1px black solid;
   color: black;
   border-radius: 0;
   padding: 15px 30px 15px 30px;
@@ -52,6 +52,15 @@ body {
 .home-text {
   font-family: "Fraunces", serif;
   margin-bottom: 20px;
+}
+
+.title {
+  font-family: "Fraunces", serif;
+}
+
+.services-row {
+  margin-top: 40px;
+  margin-bottom: 60px;
 }
 
 .footer {

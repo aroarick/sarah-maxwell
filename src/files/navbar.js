@@ -11,7 +11,7 @@ function Navigation() {
   return (
     <>
       <Navbar className="navbar sticky-top" bg="light" expand="lg">
-        <Navbar.Brand className="navbar-brand" href="#home">
+        <Navbar.Brand className="navbar-brand" href="/">
           Venegas Maxwell Homes
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />

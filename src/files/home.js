@@ -11,7 +11,7 @@ function Home() {
   return (
     <>
       <p className="home-mission">Our Mission</p>
-      <h1 className="home-mission-statement">
+      <h1 fluid className="home-mission-statement">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis aliquid
         odit, consequatur.
       </h1>
@@ -20,6 +20,9 @@ function Home() {
           <Col lg={1}></Col>
           <Col>
             <Image
+              data-aos="fade-right"
+              data-aos-easing="ease-in"
+              data-aos-duration="800"
               fluid
               src="https://images.unsplash.com/photo-1601758123927-4f7acc7da589?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80"
             ></Image>
@@ -45,7 +48,13 @@ function Home() {
         <Row>
           <Col lg={1}></Col>
           <Col>
-            <Image fluid src="/together.jpg"></Image>
+            <Image
+              data-aos="fade-left"
+              data-aos-easing="ease-in"
+              data-aos-duration="800"
+              fluid
+              src="/together.jpg"
+            ></Image>
           </Col>
           <Col lg={1}></Col>
         </Row>
@@ -64,6 +73,11 @@ function Home() {
           <Col lg={1}></Col>
           <Col>
             <Image
+              className="howdy"
+              id="dfds"
+              data-aos="fade-in"
+              data-aos-easing="ease-in"
+              data-aos-duration="800"
               fluid
               src="https://images.unsplash.com/photo-1501876725168-00c445821c9e?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80"
             ></Image>
