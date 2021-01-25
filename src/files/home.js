@@ -8,12 +8,16 @@ import "../App.css";
 function Home() {
   return (
     <>
-      <p className="home-mission">Our Mission</p>
-      <h1 fluid className="home-mission-statement">
-        Venegas Maxwell Homes combines Real Estate with complimentary staging
-        and design consultation, ensuring you receive the highest service in the
-        industry.
-      </h1>
+      <Row>
+        <Col sm={12}>
+          <p className="home-mission">Our Mission</p>
+          <h1 className="home-mission-statement">
+            Venegas Maxwell Homes combines Real Estate with complimentary
+            staging and design consultation, ensuring you receive the highest
+            service in the industry.
+          </h1>
+        </Col>
+      </Row>
       <Container>
         <Row>
           <Col lg={1}></Col>
@@ -153,7 +157,7 @@ function Home() {
               data-aos-duration="800"
               className="packets"
               fluid
-              src="/together.jpg"
+              /* src="/aboutPic.jpg" */
             ></Image>
             <Row className="home-row">
               <Col lg={6}>

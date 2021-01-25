@@ -23,7 +23,7 @@ body {
 }
 
 .nav-link {
-  margin-right: 15px;
+  margin-right: 25px;
 }
 
 .navbar-button {
@@ -34,7 +34,7 @@ body {
   padding: 15px 30px 15px 30px;
 }
 .navbar-button:hover {
-  background: #f0f0f0;
+  background: white;
   border: 1px black solid;
   color: black;
   border-radius: 0;

@@ -15,7 +15,7 @@ function Navigation() {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ml-auto">
             <Nav.Link className="nav-links" href="/services">
-              Our Services
+              Services
             </Nav.Link>
             <Nav.Link className="nav-links" href="/about">
               About
