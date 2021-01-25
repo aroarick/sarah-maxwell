@@ -1,10 +1,20 @@
 body {
-  font-family: "Lato", sans-serif;
+  font-family: "Work Sans", sans-serif;
+}
+
+.emphasis {
+  font-weight: 600;
+  font-family: "Fraunces", serif;
 }
 
 .navbar {
   padding: 30px;
   color: black;
+  background-color: white;
+}
+
+.nav-logo {
+  width: 50%;
 }
 
 .navbar-brand {
@@ -41,7 +51,7 @@ body {
   text-align: center;
   font-family: "Fraunces", serif;
   margin: 20px 250px 60px 250px;
-  font-size: 3em;
+  font-size: 2.5em;
 }
 
 .home-row {
@@ -56,11 +66,25 @@ body {
 
 .title {
   font-family: "Fraunces", serif;
+  margin-bottom: 40px;
 }
 
 .services-row {
   margin-top: 40px;
   margin-bottom: 60px;
+}
+
+.about-row {
+  margin-top: 45px;
+}
+
+.pictures-row {
+  margin-top: 30px;
+}
+
+.about-intro {
+  margin-top: 20px;
+  margin-bottom: 40px;
 }
 
 .footer {

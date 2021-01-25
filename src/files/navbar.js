@@ -2,17 +2,14 @@ import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import Button from "react-bootstrap/Button";
 import Image from "react-bootstrap/Image";
-import Row from "react-bootstrap/Row";
-import Col from "react-bootstrap/Col";
-import Container from "react-bootstrap/Container";
 import "../App.css";
 
 function Navigation() {
   return (
     <>
-      <Navbar className="navbar sticky-top" bg="light" expand="lg">
+      <Navbar className="navbar sticky-top" expand="lg">
         <Navbar.Brand className="navbar-brand" href="/">
-          Venegas Maxwell Homes
+          <Image className="nav-logo" fluid src="/logo.png"></Image>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
@@ -20,11 +17,16 @@ function Navigation() {
             <Nav.Link className="nav-links" href="/services">
               Our Services
             </Nav.Link>
-            <Nav.Link className="nav-links" href="#link">
+            <Nav.Link className="nav-links" href="/about">
               About
             </Nav.Link>
+            <Nav.Link className="nav-links" href="/contact">
+              Contact
+            </Nav.Link>
           </Nav>
-          <Button className="navbar-button">Contact Us</Button>
+          <Button href="listings" className="navbar-button">
+            Listings
+          </Button>
         </Navbar.Collapse>
       </Navbar>
     </>
