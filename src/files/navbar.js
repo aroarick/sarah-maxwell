@@ -24,7 +24,7 @@ function Navigation() {
               Contact
             </Nav.Link>
           </Nav>
-          <Button href="listings" className="navbar-button">
+          <Button href="#" className="navbar-button">
             Listings
           </Button>
         </Navbar.Collapse>

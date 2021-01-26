@@ -163,8 +163,8 @@ function Home() {
               <Col lg={6}>
                 <h2 className="home-text">Contact</h2>
                 <p>
-                  Interested in selling a your home? This is our guide for help
-                  you out!
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Quibusdam.
                 </p>
               </Col>
               <Col lg={2}></Col>

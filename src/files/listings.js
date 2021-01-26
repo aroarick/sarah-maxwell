@@ -1,8 +1,7 @@
 import React from "react";
 import Container from "react-bootstrap/Container";
-import Row from "react-bootstrap/Row";
-import Col from "react-bootstrap/Col";
-import Image from "react-bootstrap/Image";
+import CardDeck from "react-bootstrap/CardDeck";
+import Card from "react-bootstrap/Card";
 import { listingData } from "../data/listingsData";
 
 export default function Listings() {
@@ -10,15 +9,15 @@ export default function Listings() {
     <Container>
       {listingData.map((data, key) => {
         return (
-          <Row key={key}>
-            <Col>
-              <Image fluid src={data.image}></Image>
-            </Col>
-            <Col>
-              <h5>{data.header}</h5>
-              <h5>{data.description}</h5>
-            </Col>
-          </Row>
+          <CardDeck style={{ width: "18rem" }}>
+            <Card variant="top" key={key}>
+              <Card.Img fluid src={data.image}></Card.Img>
+              <Card.Body>
+                <Card.Title>{data.header}</Card.Title>
+                <Card.Text>{data.description}</Card.Text>
+              </Card.Body>
+            </Card>
+          </CardDeck>
         );
       })}
     </Container>
