@@ -47,54 +47,6 @@ function Home() {
             </Button>
           </Col>
         </Row>
-        <Row className="home-row">
-          <Col>
-            <Image
-              data-aos="fade-right"
-              data-aos-easing="ease-in"
-              data-aos-duration="800"
-              className="packets"
-              fluid
-              src="/buyerPacket.jpg"
-            ></Image>
-            <Row className="home-row">
-              <Col lg={6}>
-                <h2 className="home-text">Buyer's Packet</h2>
-                <p>
-                  Interested in buying a new home? This is our guide for help
-                  you out!
-                </p>
-              </Col>
-              <Col lg={2}></Col>
-              <Col lg={3}>
-                <Button className="navbar-button">Download</Button>
-              </Col>
-            </Row>
-          </Col>
-          <Col>
-            <Image
-              data-aos="fade-left"
-              data-aos-easing="ease-in"
-              data-aos-duration="800"
-              className="packets"
-              fluid
-              src="https://images.unsplash.com/photo-1565183997392-2f6f122e5912?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80"
-            ></Image>
-            <Row className="home-row">
-              <Col lg={6}>
-                <h2 className="home-text">Seller's Packet</h2>
-                <p>
-                  Interested in selling a your home? This is our guide for help
-                  you out!
-                </p>
-              </Col>
-              <Col lg={2}></Col>
-              <Col lg={3}>
-                <Button className="navbar-button">Download</Button>
-              </Col>
-            </Row>
-          </Col>
-        </Row>
         <Row>
           <Col lg={1}></Col>
           <Col>
@@ -124,54 +76,30 @@ function Home() {
             </Button>
           </Col>
         </Row>
-        <Row className="home-row">
-          <Col>
-            <Image
-              data-aos="fade-right"
-              data-aos-easing="ease-in"
-              data-aos-duration="800"
-              className="packets"
-              fluid
-              src="/together.jpg"
-            ></Image>
-            <Row className="home-row">
-              <Col lg={6}>
-                <h2 className="home-text">Who We Are</h2>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Tempore.
-                </p>
-              </Col>
-              <Col lg={2}></Col>
-              <Col lg={3}>
-                <Button href="/about" className="navbar-button">
-                  About
-                </Button>
-              </Col>
-            </Row>
-          </Col>
+        <Row>
+          <Col lg={1}></Col>
           <Col>
             <Image
               data-aos="fade-left"
               data-aos-easing="ease-in"
               data-aos-duration="800"
-              className="packets"
               fluid
-              /* src="/aboutPic.jpg" */
+              src="/together.jpg"
             ></Image>
-            <Row className="home-row">
-              <Col lg={6}>
-                <h2 className="home-text">Contact</h2>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Quibusdam.
-                </p>
-              </Col>
-              <Col lg={2}></Col>
-              <Col lg={3}>
-                <Button className="navbar-button">Download</Button>
-              </Col>
-            </Row>
+          </Col>
+          <Col lg={1}></Col>
+        </Row>
+        <Row className="home-row">
+          <Col lg={1}></Col>
+          <Col>
+            <h1 className="home-text">About</h1>
+            <p>Would you like to work with us? Take a look at who we are!</p>
+          </Col>
+          <Col lg={2}></Col>
+          <Col lg={3}>
+            <Button href="/services" className="navbar-button">
+              Who We Are
+            </Button>
           </Col>
         </Row>
       </Container>

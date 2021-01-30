@@ -99,4 +99,14 @@ body {
 
 .footer-text {
   margin: 20px 0px -15px 20px;
+  color: black;
+  text-decoration: none;
+}
+
+.footer-required {
+  margin: 20px 0px 20px 20px;
+}
+
+.footer-fathom {
+  width: 200px;
 }

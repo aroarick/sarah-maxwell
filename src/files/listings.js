@@ -14,7 +14,8 @@ export default function Listings() {
               <Card.Img fluid src={data.image}></Card.Img>
               <Card.Body>
                 <Card.Title>{data.header}</Card.Title>
-                <Card.Text>{data.description}</Card.Text>
+                <Card.Text>{data.bathBed}</Card.Text>
+                <Card.Title>{data.price}</Card.Title>
               </Card.Body>
             </Card>
           </CardDeck>
