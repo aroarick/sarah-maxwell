@@ -7,9 +7,9 @@ import { listingData } from "../data/listingsData";
 export default function Listings() {
   return (
     <Container>
-      {listingData.map((data, key) => {
-        return (
-          <CardDeck style={{ width: "18rem" }}>
+      <CardDeck className="listings-deck" style={{ width: "70rem" }}>
+        {listingData.map((data, key) => {
+          return (
             <Card variant="top" key={key}>
               <Card.Img fluid src={data.image}></Card.Img>
               <Card.Body>
@@ -18,9 +18,9 @@ export default function Listings() {
                 <Card.Title>{data.price}</Card.Title>
               </Card.Body>
             </Card>
-          </CardDeck>
-        );
-      })}
+          );
+        })}
+      </CardDeck>
     </Container>
   );
 }
