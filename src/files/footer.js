@@ -9,16 +9,11 @@ function Footer() {
       <Row className="footer">
         <Col lg={3}>
           <h3 className="footer-title">Venegas Maxwell Homes</h3>
-          <p className="footer-text">(214) 734-7889</p>
-          <p className="footer-text">julie@venegasmaxwellhomes.com</p>
-        </Col>
-        <Col lg={2}></Col>
-        <Col lg={2}>
-          <h3 className="footer-title">What We Offer</h3>
           <p className="footer-text">Services</p>
           <p className="footer-text">About</p>
           <p className="footer-text">Listings</p>
         </Col>
+        <Col lg={2}></Col>
         <Col lg={4} className="footer-required">
           <a
             className="footer-text"

@@ -19,9 +19,15 @@ function Contact() {
             <br />
             <p className="emphasis">Email</p>
             <p>julie@venegasmaxwellhomes.com</p>
+            <p>sarah@venegasmaxwellhomes.com</p>
             <br />
             <p className="emphasis">Phone</p>
-            <p>(214) 734-7889</p>
+            <p>
+              <span className="emphasis">Julie Venegas </span>(214) 734-7889
+            </p>
+            <p>
+              <span className="emphasis">Sarah Maxwell </span>(325) 207-9003
+            </p>
           </Col>
           <Col>
             <Image fluid src="/together.jpg"></Image>

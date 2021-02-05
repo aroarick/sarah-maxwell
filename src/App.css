@@ -14,7 +14,8 @@ body {
 }
 
 .nav-logo {
-  width: 50%;
+  margin-top: 40px;
+  width: 120%;
 }
 
 .navbar-brand {
@@ -39,6 +40,14 @@ body {
   color: black;
   border-radius: 0;
   padding: 15px 30px 15px 30px;
+}
+
+.nav-icons {
+  color: black;
+  margin: auto 15px auto 15px;
+}
+.nav-icons:hover {
+  color: black;
 }
 
 .home-mission {

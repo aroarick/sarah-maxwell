@@ -9,6 +9,13 @@ function Home() {
   return (
     <>
       <Row>
+        <Col lg="2"></Col>
+        <Col lg="7">
+          <Image className="nav-logo" src="/logo.png"></Image>
+        </Col>
+        <Col lg="3"></Col>
+      </Row>
+      <Row>
         <Col sm={12}>
           <p className="home-mission">Our Mission</p>
           <h1 className="home-mission-statement">
