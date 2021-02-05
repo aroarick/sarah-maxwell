@@ -91,6 +91,10 @@ body {
   margin-bottom: 30px;
 }
 
+.listings-card {
+  margin-bottom: 3rem;
+}
+
 .footer {
   background: #f0f0f0;
   padding-bottom: 70px;

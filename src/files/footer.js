@@ -14,10 +14,10 @@ function Footer() {
         </Col>
         <Col lg={2}></Col>
         <Col lg={2}>
-          <h3 className="footer-title">About</h3>
-          <p className="footer-text">Work</p>
-          <p className="footer-text">Who We Are</p>
-          <p className="footer-text">Contact Us</p>
+          <h3 className="footer-title">What We Offer</h3>
+          <p className="footer-text">Services</p>
+          <p className="footer-text">About</p>
+          <p className="footer-text">Listings</p>
         </Col>
         <Col lg={4} className="footer-required">
           <a
