@@ -2,6 +2,10 @@ body {
   font-family: "Work Sans", sans-serif;
 }
 
+.hidden {
+  display: none;
+}
+
 .emphasis {
   font-weight: 600;
   font-family: "Fraunces", serif;
@@ -14,6 +18,10 @@ body {
 }
 
 .nav-logo {
+  width: 50%;
+}
+
+.home-logo {
   margin-top: 40px;
   width: 120%;
 }

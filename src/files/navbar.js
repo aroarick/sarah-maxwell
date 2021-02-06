@@ -2,16 +2,23 @@ import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import Button from "react-bootstrap/Button";
 import Image from "react-bootstrap/Image";
+import { useLocation } from "react-router-dom";
 import { FaInstagram } from "react-icons/fa";
 import { FaFacebookF } from "react-icons/fa";
 import "../App.css";
 
 function Navigation() {
+  var path = useLocation().pathname;
+
   return (
     <>
       <Navbar className="navbar sticky-top" expand="lg">
-        <Navbar.Brand className="navbar-brand" href="/">
-          {/* <Image className="nav-logo" fluid src="/logo.png"></Image> */}
+        <Navbar.Brand
+          className="navbar-brand"
+          href="/"
+          className={path != "/" ? null : "hidden"}
+        >
+          <Image className="nav-logo" fluid src="/logo.png"></Image>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">

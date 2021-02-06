@@ -11,7 +11,7 @@ function Home() {
       <Row>
         <Col lg="2"></Col>
         <Col lg="7">
-          <Image className="nav-logo" src="/logo.png"></Image>
+          <Image fluid className="home-logo" src="/logo.png"></Image>
         </Col>
         <Col lg="3"></Col>
       </Row>
