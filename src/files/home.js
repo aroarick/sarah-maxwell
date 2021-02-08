@@ -9,11 +9,9 @@ function Home() {
   return (
     <>
       <Row>
-        <Col lg="2"></Col>
-        <Col lg="7">
+        <Col lg="12" style={{ padding: "0 10%" }}>
           <Image fluid className="home-logo" src="/logo.png"></Image>
         </Col>
-        <Col lg="3"></Col>
       </Row>
       <Row>
         <Col sm={12}>
@@ -26,7 +24,7 @@ function Home() {
         </Col>
       </Row>
       <Container>
-        <Row>
+        {/* <Row>
           <Col lg={1}></Col>
           <Col>
             <Image
@@ -53,7 +51,7 @@ function Home() {
               Listings
             </Button>
           </Col>
-        </Row>
+        </Row> */}
         <Row>
           <Col lg={1}></Col>
           <Col>
