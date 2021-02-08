@@ -1,0 +1,25 @@
+PassengerNodejs /home/ashlynn680/.nvm/versions/node/v13.4.0/bin/node
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+RewriteRule ^index\.html$ - [L]
+
+#RewriteCond %{REQUEST_FILENAME} /api
+#RewriteRule . /api [L]
+
+RewriteCond %{REQUEST_FILENAME} /contact
+RewriteRule . /index.html [L]
+
+RewriteCond %{REQUEST_FILENAME} /listings
+RewriteRule . /index.html [L]
+
+RewriteCond %{REQUEST_FILENAME} /services
+RewriteRule . /index.html [L]
+
+RewriteCond %{REQUEST_FILENAME} /about
+RewriteRule . /index.html [L]
+
+#RewriteCond %{REQUEST_FILENAME} !-f
+#RewriteCond %{REQUEST_FILENAME} !-d
+#RewriteRule . /index.html [L]
+</IfModule>
