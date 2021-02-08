@@ -102,7 +102,7 @@ function Home() {
           </Col>
           <Col lg={2}></Col>
           <Col lg={3}>
-            <Button href="/services" className="navbar-button">
+            <Button href="/about" className="navbar-button">
               Who We Are
             </Button>
           </Col>
