@@ -33,9 +33,9 @@ function Navigation() {
               Contact
             </Nav.Link>
           </Nav>
-          <Button href="/listings" className="navbar-button">
+          {/* <Button href="/listings" className="navbar-button">
             Listings
-          </Button>
+          </Button> */}
           <a
             className="nav-icons"
             href="https://www.instagram.com/venegasmaxwellhomes/?hl=en"

@@ -23,7 +23,8 @@ body {
 
 .home-logo {
   margin-top: 40px;
-  width: 120%;
+  padding-left: 35px;
+  padding-right: 35px;
 }
 
 .navbar-brand {
@@ -69,6 +70,15 @@ body {
   font-family: "Fraunces", serif;
   margin: 20px 250px 60px 250px;
   font-size: 2.5em;
+}
+
+@media only screen and (max-width: 768px) {
+  .home-mission-statement {
+    text-align: center;
+    font-family: "Fraunces", serif;
+    margin: 20px 20px 60px 20px;
+    font-size: 1.5em;
+  }
 }
 
 .home-row {

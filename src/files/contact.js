@@ -18,8 +18,19 @@ function Contact() {
             </p>
             <br />
             <p className="emphasis">Email</p>
-            <p>julie@venegasmaxwellhomes.com</p>
-            <p>sarah@venegasmaxwellhomes.com</p>
+            <a
+              className="footer-text"
+              href="mailto:julie@venegasmaxwellhomes.com"
+            >
+              julie@venegasmaxwellhomes.com
+            </a>
+            <br />
+            <a
+              className="footer-text"
+              href="mailto:sarah@venegasmaxwellhomes.com"
+            >
+              sarah@venegasmaxwellhomes.com
+            </a>
             <br />
             <p className="emphasis">Phone</p>
             <p>

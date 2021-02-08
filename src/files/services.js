@@ -32,7 +32,12 @@ function Services() {
                       event. To help navigate the ins and outs of selling a
                       home, we can schedule an appointment with you.
                     </p>
-                    <Button className="navbar-button">Contact</Button>
+                    <Button
+                      href="mailto:sarah@venegasmaxwellhomes.com"
+                      className="navbar-button"
+                    >
+                      Contact
+                    </Button>
                   </Col>
                 </Row>
                 <Row className="services-row">
@@ -44,7 +49,12 @@ function Services() {
                       you determine what you want, need, and can have in your
                       new home.
                     </p>
-                    <Button className="navbar-button">Contact</Button>
+                    <Button
+                      href="mailto:sarah@venegasmaxwellhomes.com"
+                      className="navbar-button"
+                    >
+                      Contact
+                    </Button>
                   </Col>
                 </Row>
                 <h3 className="title">Packing or Unpacking</h3>
@@ -53,7 +63,12 @@ function Services() {
                   part of moving. With our help, we can make the process go
                   faster with ease.
                 </p>
-                <Button className="navbar-button">Contact for Pricing</Button>
+                <Button
+                  href="mailto:sarah@venegasmaxwellhomes.com"
+                  className="navbar-button"
+                >
+                  Contact for Pricing
+                </Button>
               </Col>
             </Row>
             <Row className="services-row">
@@ -64,7 +79,12 @@ function Services() {
                   necessity. To make the chore less hectic, we can offer
                   services to help you out.
                 </p>
-                <Button className="navbar-button">Contact for Pricing</Button>
+                <Button
+                  href="mailto:sarah@venegasmaxwellhomes.com"
+                  className="navbar-button"
+                >
+                  Contact for Pricing
+                </Button>
               </Col>
             </Row>
             <Row className="services-row">
@@ -75,14 +95,24 @@ function Services() {
                   make it look aesthetically-pleasing. We can give you guidence
                   on how to decorate and stage your home professionally.
                 </p>
-                <Button className="navbar-button">Contact</Button>
+                <Button
+                  href="mailto:sarah@venegasmaxwellhomes.com"
+                  className="navbar-button"
+                >
+                  Contact
+                </Button>
               </Col>
             </Row>
             <Row className="services-row">
               <Col>
                 <h3 className="title">Design Consultation</h3>
 
-                <Button className="navbar-button">Contact for Pricing</Button>
+                <Button
+                  href="mailto:sarah@venegasmaxwellhomes.com"
+                  className="navbar-button"
+                >
+                  Contact for Pricing
+                </Button>
               </Col>
             </Row>
           </Col>
