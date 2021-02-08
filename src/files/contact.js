@@ -16,29 +16,40 @@ function Contact() {
               If you have any questions or comments, please contact us via email
               or phone.
             </p>
-            <br />
-            <p className="emphasis">Email</p>
-            <a
-              className="footer-text"
-              href="mailto:julie@venegasmaxwellhomes.com"
-            >
-              julie@venegasmaxwellhomes.com
-            </a>
-            <br />
-            <a
-              className="footer-text"
-              href="mailto:sarah@venegasmaxwellhomes.com"
-            >
-              sarah@venegasmaxwellhomes.com
-            </a>
-            <br />
-            <p className="emphasis">Phone</p>
-            <p>
-              <span className="emphasis">Julie Venegas </span>(214) 734-7889
-            </p>
-            <p>
-              <span className="emphasis">Sarah Maxwell </span>(325) 207-9003
-            </p>
+            <ul>
+              <li className="person-list">
+                <span className="emphasis">Julie Venegas</span>
+                <ul>
+                  <li className="contact-email">
+                    <a
+                      className="footer-text"
+                      href="mailto:julie@venegasmaxwellhomes.com"
+                    >
+                      julie@venegasmaxwellhomes.com
+                    </a>
+                  </li>
+                  <li>
+                    <a href="tel:2147347889">(214) 734-7889</a>
+                  </li>
+                </ul>
+              </li>
+              <li className="person-list">
+                <span className="emphasis">Sarah Maxwell</span>
+                <ul>
+                  <li className="contact-email">
+                    <a
+                      className="footer-text"
+                      href="mailto:sarah@venegasmaxwellhomes.com"
+                    >
+                      sarah@venegasmaxwellhomes.com
+                    </a>
+                  </li>
+                  <li>
+                    <a href="tel:3252079003">(325) 207-9003</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
           </Col>
           <Col>
             <Image fluid src="/together.jpg"></Image>

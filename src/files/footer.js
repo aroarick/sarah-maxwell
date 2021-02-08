@@ -2,13 +2,15 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Image from "react-bootstrap/Image";
 import "../App.css";
+import { FaInstagram } from "react-icons/fa";
+import { FaFacebookF } from "react-icons/fa";
 
 function Footer() {
   return (
     <>
       <Row className="footer">
-        <Col lg={3}>
-          <h3 className="footer-title">Venegas Maxwell Homes</h3>
+        <Col sm={0} md={1}></Col>
+        <Col md={3}>
           <a href="/services" className="footer-text">
             Services
           </a>
@@ -16,20 +18,33 @@ function Footer() {
             About
           </a>
         </Col>
-        <Col lg={2}></Col>
-        <Col lg={4} className="footer-required">
+        <Col sm={0} md={1}></Col>
+        <Col md={2} style={{ minWidth: "50px" }}>
+          <a
+            className="footer-nav-icons"
+            href="https://www.instagram.com/venegasmaxwellhomes/?hl=en"
+          >
+            <FaInstagram size="35" />
+          </a>
+          <a
+            className="footer-nav-icons"
+            href="https://www.facebook.com/venegasmaxwellhomes/"
+          >
+            <FaFacebookF size="35" />
+          </a>
+        </Col>
+        <Col sm={0} md={1}></Col>
+        <Col md={3} className="footer-required">
           <a
             className="footer-text"
             href="https://drive.google.com/file/d/1tMAPn7Il15kPWOTRHZtBuxIu34AAXDLc/view"
           >
             Information About Brokerage Services
           </a>
-          <Image
-            className="footer-fathom"
-            fluid
-            src="https://mail.google.com/mail/u/0?ui=2&ik=1484ff25f1&attid=0.1.2&permmsgid=msg-f:1689730373219474720&th=177320d265ef5d20&view=fimg&sz=s0-l75-ft&attbid=ANGjdJ9VuwNUud5OWHPEZF3-J0DNj_I_Xv8W_ceZwhqu28Yc7Lnzj4v6xRjBLewtlXdd4YPIXk18EiEpFXwgjlURng9PP8Lrr9zpH24WxeNu7E3jj1t168b6m7C2E14&disp=emb"
-          ></Image>
+          <br />
+          <Image className="footer-fathom" fluid src="fathom-logo.png"></Image>
         </Col>
+        <Col sm={0} md={1}></Col>
       </Row>
     </>
   );
