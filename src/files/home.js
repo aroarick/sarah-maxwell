@@ -9,7 +9,7 @@ function Home() {
   return (
     <>
       <Row>
-        <Col lg="12" style={{ padding: "0 10%" }}>
+        <Col lg="12" style={{ padding: "0 15% 0 15%", textAlign: "center" }}>
           <Image fluid className="home-logo" src="/logo.png"></Image>
         </Col>
       </Row>
